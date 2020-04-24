@@ -1,7 +1,7 @@
 dubbo:
   application:
-    name: practice-service
-    owner: Mic
+    name: dubbo-service
+    owner: neo
   protocol:
     name: dubbo
     port: 20881
@@ -17,3 +17,7 @@ dubbo:
     group: dubbo-test
   scan:
     base-packages: com.zookeeper
+
+---
+server:
+  port: 2991
